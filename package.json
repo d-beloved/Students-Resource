@@ -4,7 +4,7 @@
   "description": "A simple app that handles student details creation and stores",
   "main": "app/app.js",
   "scripts": {
-    "start": "--exec babel-node app/app.js"
+    "start": "babel-node app/app.js"
   },
   "repository": {
     "type": "git",
