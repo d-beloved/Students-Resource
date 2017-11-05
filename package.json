@@ -1,0 +1,37 @@
+{
+  "name": "students-resource",
+  "version": "1.0.0",
+  "description": "A simple app that handles student details creation and stores",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "babel-node app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-beloved/Students-Resource.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "javascript",
+    "Materializecss"
+  ],
+  "author": "Ayodeji",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/d-beloved/Students-Resource/issues"
+  },
+  "homepage": "https://github.com/d-beloved/Students-Resource#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "reload": "^2.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
