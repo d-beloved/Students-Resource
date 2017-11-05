@@ -9,7 +9,7 @@
   <meta name="author" content="">
   <link rel="icon" href="images/favicon.ico">
 
-  <title>ALC-Student--home</title>
+  <title><%= siteTitle %>--<%= pageTitle %></title>
 
  <!--Import Google Icon Font-->
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -22,11 +22,12 @@
 
 </head>
 
-<body>
+<body id="<%= pageID %>">
   <!-- Dropdown Structure -->
 <ul id="dropdown1" class="dropdown-content">
     <li><a href="newstudent.html">Register</a></li>
     <li><a href="students.html">View students</a></li>
+    <li><a href="admin.html">Manage-students</a></li>
   </ul>
   <div class="navbar-fixed">
   <nav>
@@ -42,6 +43,7 @@
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="newstudent.html">Register</a></li>
           <li><a href="students.html">View students</a></li>
+          <li><a href="admin.html">Manage-students</a></li>
       </ul>
     </div>
   </nav>
@@ -71,6 +73,7 @@
   <script src="js/materialize.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="js/style.js"></script>
+  <script src="/reload/reload.js"></script>
 </body>
 
-</html-->
+</html>

@@ -1,0 +1,30 @@
+{
+  "students": [{
+    "Fullname" : "Ayomideji David Moronkeji",
+    "DateofBirth": "4 November, 1990",
+    "Emailaddress" : "ayo@gmail.com",
+    "Gender" : "Male",
+    "Telephone" : "08130567823",
+    "Studentidno": "csc/10/2111",
+    "courseofstudy" : "Computer science",
+    "profilePicture": "IMG_20140404_100634.jpg"
+  },{
+    "Fullname" : "Aderonke Shamsudeen Saka",
+    "DateofBirth": "14 October, 1995",
+    "Emailaddress" : "eronkebee@gmail.com",
+    "Gender" : "Female",
+    "Telephone" : "03567892348",
+    "Studentidno": "fwt/08/1081",
+    "courseofstudy" : "Forestry and weed technology",
+    "profilePicture": "IMG_20140404_100646.jpg"
+  },{
+    "Fullname" : "Jeremiah Salako Monday",
+    "DateofBirth": "25 July, 1999",
+    "Emailaddress" : "jerrycurl@gmail.com",
+    "Gender" : "Male",
+    "Telephone" : "09035687345",
+    "Studentidno" : "eee/10/2111",
+    "courseofstudy" : "Electrical Elctronics Engineering",
+    "profilePicture": "IMG_20140424_100634.jpg"
+  }]
+}
